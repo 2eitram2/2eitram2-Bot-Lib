@@ -1,0 +1,16 @@
+[package]
+name = "eitram2_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pqc_dilithium = "0.2.0"
+sha2 = "0.10"
+hex = "0.4"
+bytes = "1.0"
+tokio = { version = "1", features = ["full"] }
+lazy_static = "1.4"
+pqc_kyber = {version = "0.7.1", features = ["kyber1024"]}
+rand = "0.8"
+aes-gcm = "0.10.0"
+aead = "0.5.2"
